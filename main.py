@@ -44,5 +44,5 @@ print(f"FINAL GRADE: {final_grade:.2f}")
 print(f"EQUIVALENT: {equiv}")
 print(f"STATUS: {status}")
 
-# made ny Julex Alexandria B. Mendoza and Venx Bry Lumongtad 
-# Revised by David Shawn S. Serate
+# made ny Julex Alexandria B. Mendoza and Venx Bry Lumongtad (MORE CREDITS) 
+# Revised by David Shawn S. Serate (LESS CREDITS)
