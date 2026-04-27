@@ -43,3 +43,5 @@ print("\nRESULT")
 print(f"FINAL GRADE: {final_grade:.2f}")
 print(f"EQUIVALENT: {equiv}")
 print(f"STATUS: {status}")
+
+# made ny Julex Alexandria B. Mendoza
