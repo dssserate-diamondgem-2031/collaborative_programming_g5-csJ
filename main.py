@@ -11,10 +11,14 @@ for a in range(4):
     sa = ((sa1 + sa2) / 2) * 0.70
     fa = ((fa1 + fa2) / 2) * 0.30
 
-    tentative_grade = sa + fa
-    total += tentative_grade
+    tentative_grade_Q1 = sa + fa
+    tentative_grade_Q2 = tentative_grade_Q1 + 2(sa + fa) / 3
+    tentative_grade_Q3 = tentative_grade_Q2 + 2(sa + fa) / 3
+    tentative_grade_Q4 = tentative_grade_Q3 + 2(sa + fa) / 3
+    
+    total += tentative_grade_Q4
 
-final_grade = total / 4
+final_grade = tentative_grade_Q4
 
 if final_grade >= 96:
     equiv, status = "1.00", "EXCELLENT"
